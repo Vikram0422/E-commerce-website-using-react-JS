@@ -7,17 +7,17 @@ import './utils.css';
 export default function Main() {
     return (
         <>
-            <body>
+            <div className='main'>
                 <header>
                     <nav>
                         <div className="logo">
                             <img src={logo} alt="" />
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li><a href="home.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
                         <div className="search">
                             <input type="text" name="" id="" placeholder="Search Here" />
                             <button className="btn">Search</button>
@@ -256,7 +256,7 @@ export default function Main() {
                 <footer className="flex-all-center">
                     <p>Copyright &copy; MyCart.com </p>
                 </footer>
-            </body>
+            </div>
         </>
     )
 }

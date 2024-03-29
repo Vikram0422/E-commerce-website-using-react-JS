@@ -1,4 +1,7 @@
 @media screen and (max-width:1000px){
+    .main{
+        overflow: hidden;
+    }
 
     nav{
         flex-direction: column;
@@ -19,9 +22,11 @@
 
     .search{
         justify-content: center;
+        padding: 0%;
     }
 
     .search input{
+        width: 50vw;
         margin: 12px 16px;
     }
 

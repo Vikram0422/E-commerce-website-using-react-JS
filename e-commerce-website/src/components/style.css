@@ -15,6 +15,7 @@ header{
 
 nav{
     display: flex;
+    justify-content: space-between;
 }
 
 .logo{
@@ -51,6 +52,7 @@ nav ul li a:hover{
 .search{
     display: flex;
     align-items: center;
+    padding-right: 1rem;
 }
 
 .search input{
@@ -78,17 +80,20 @@ nav ul li a:hover{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.cards{
-    display: flex; 
-    overflow: hidden;
+.cards {
+    display: flex;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap;
 }
 
-.card-item{
+.card-item {
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
     margin: 0 15px;
 }
+
 
 .card h2{
     font-family: 'Lato', sans-serif;
